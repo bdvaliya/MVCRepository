@@ -18,9 +18,9 @@ namespace Infrastructure.Repository
         private readonly AppUserEntities db;
         private readonly DbSet dbSet;
 
-        public Repository()
+        public Repository(AppUserEntities _db)
         {
-            db = new AppUserEntities();
+            db = _db;
             dbSet = db.Set<TEntity>();
         }
 
