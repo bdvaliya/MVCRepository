@@ -1,0 +1,10 @@
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\Infrastructure.dll.config
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\Infrastructure.dll
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\Infrastructure.pdb
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\EntityFramework.dll
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\EntityFramework.xml
+D:\MVC-Demo\MVCRepository\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC-Demo\MVCRepository\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+D:\MVC-Demo\MVCRepository\Infrastructure\obj\Debug\Infrastructure.dll
+D:\MVC-Demo\MVCRepository\Infrastructure\obj\Debug\Infrastructure.pdb
