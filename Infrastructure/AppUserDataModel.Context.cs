@@ -26,5 +26,6 @@ namespace Infrastructure
         }
     
         public virtual DbSet<AppUser> AppUsers { get; set; }
+        public virtual DbSet<AppUserRole> AppUserRoles { get; set; }
     }
 }

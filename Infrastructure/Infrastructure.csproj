@@ -69,8 +69,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppUserDataModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="AppUserRole.cs">
+      <DependentUpon>AppUserDataModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\AppUserRepository.cs" />
+    <Compile Include="Repository\IRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="AppUserDataModel.edmx">
