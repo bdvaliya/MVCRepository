@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Repository
 {
-   public class AppUserRepository
+   public class AppUserRepository : IRepository<AppUser>
     {
         AppUserEntities db = null;
         public AppUserRepository()

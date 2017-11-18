@@ -10,7 +10,8 @@ namespace WebUI.Controllers
 {
     public class AppUserController : Controller
     {
-        private readonly AppUserRepository _appUserRepository;
+        private readonly IRepository<Infrastructure.AppUser> _appUserRepository;
+                
         public AppUserController()
         {
             _appUserRepository = new AppUserRepository();
