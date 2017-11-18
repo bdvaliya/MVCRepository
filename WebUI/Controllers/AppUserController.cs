@@ -5,16 +5,18 @@ using System.Web;
 using System.Web.Mvc;
 using Infrastructure.Repository;
 using WebUI.Models;
+using Infrastructure;
 
 namespace WebUI.Controllers
 {
     public class AppUserController : Controller
     {
-        private readonly IRepository<Infrastructure.AppUser> _appUserRepository;
+        private readonly IRepository<AppUser> _appUserRepository;
+
                 
         public AppUserController()
         {
-            _appUserRepository = new AppUserRepository();
+            _appUserRepository = new Repository<AppUser>();
         }
         // GET: AppUser
         public ActionResult Index()
